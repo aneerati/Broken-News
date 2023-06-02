@@ -1,0 +1,9 @@
+/* Body CSS */
+
+.invisible {
+    display: none;
+}
+
+h1 {
+    color: blue;
+}
