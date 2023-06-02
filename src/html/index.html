@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Broken News</title>
+    </head>
+
+    <body>
+        <h1>Broken News</h1>
+        <hr>
+
+        <div>
+            <button id="newsButton" type="button" onclick="buttonclick()">Breaking News</button>
+        </div>
+
+        <script>
+            function buttonclick() {
+                var button = document.getElementById("newsButton");
+                button.classList.add("invisible");
+            }
+        </script>
+    </body>
+</html>
